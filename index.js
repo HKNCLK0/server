@@ -6,4 +6,4 @@ app.get("/", (req, res) => {
   res.send("Hello Server");
 });
 
-app.listen(() => console.log("Server Starded"));
+app.listen(3000, () => console.log("Server Starded"));
